@@ -30,7 +30,7 @@
 						<a id="back_button" class="button border fast" href="">Back</a>
 					</div>
 					<div class="left size-6">
-						<a class="button border fast" href="">Root Page</a>
+						<a class="button border fast" href="http://<?php echo parse_url($_SERVER['HTTP_HOST'], PHP_URL_HOST); ?>">Root Page</a>
 					</div>
 					<div class="clear"></div>
 				</div>
