@@ -1,0 +1,577 @@
+/*** FONTS ***/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Bangers:400,300,700,900);
+
+/*** GLOBAL ***/
+
+.spinload {
+	z-index: 1000000;
+	overflow: hidden;
+	position: fixed;
+	display: block;
+	height: auto;
+	min-height: 100%;
+	max-height: none;
+	width: auto;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: #000000;
+	background-size: auto;
+	opacity: 1.00;
+}
+
+.interface {
+	z-index: 1;
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	height: auto;
+	min-height: 0;
+	max-height: none;
+	width: auto;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+}
+
+.form {
+	z-index: 0;
+	overflow: hidden;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+}
+
+.data {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 10px 10px 10px 10px;
+	padding: 20px 20px 20px 20px;
+	outline: 0;
+	border: 0;
+	border-radius: 4px 4px 4px 4px;
+	background: rgba(255, 255, 255, 0.25);
+	background-size: auto;
+	opacity: 1.00;
+}
+
+.attachment {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: none;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+}
+
+.attachment:focus {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: none;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+}
+
+.selector {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	min-height: 20px;
+	max-height: 20px;
+	width: auto;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+	font: 400 14px/20px 'Open Sans', 'Arial';
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.selector:focus {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	min-height: 20px;
+	max-height: 20px;
+	width: auto;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+	font: 400 14px/20px 'Open Sans', 'Arial';
+	color: #000000;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.field {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	min-height: 20px;
+	max-height: 20px;
+	width: auto;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+	font: 400 14px/20px 'Open Sans', 'Arial';
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.field:focus {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	min-height: 20px;
+	max-height: 20px;
+	width: auto;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+	font: 400 14px/20px 'Open Sans', 'Arial';
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.area {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	min-height: 200px;
+	max-height: 400px;
+	width: auto;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+	font: 400 14px/20px 'Open Sans', 'Arial';
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.area:focus {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	min-height: 200px;
+	max-height: 400px;
+	width: auto;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1.00;
+	font: 400 14px/20px 'Open Sans', 'Arial';
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.button {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 10px 10px 10px 10px;
+	padding: 20px 20px 20px 20px;
+	outline: 0;
+	border: 0;
+	border-radius: 4px 4px 4px 4px;
+	background: rgba(255, 255, 255, 0.00);
+	background-size: auto;
+	opacity: 1.00;
+	font: 400 20px/20px 'Open Sans', 'Arial';
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.button:hover {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 10px 10px 10px 10px;
+	padding: 20px 20px 20px 20px;
+	outline: 0;
+	border: 0;
+	border-radius: 4px 4px 4px 4px;
+	background: rgba(255, 255, 255, 1.00);
+	background-size: auto;
+	opacity: 1.00;
+	font: 400 20px/20px 'Open Sans', 'Arial';
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.border {
+	box-shadow: inset 0 0 0 2px #CCCCCC;
+	-o-box-shadow: inset 0 0 0 2px #CCCCCC;
+	-ms-box-shadow: inset 0 0 0 2px #CCCCCC;
+	-moz-box-shadow: inset 0 0 0 2px #CCCCCC;
+	-webkit-box-shadow: inset 0 0 0 2px #CCCCCC;
+}
+
+.border:hover {
+	box-shadow: inset 0 0 0 4px #FFFFFF;
+	-o-box-shadow: inset 0 0 0 4px #FFFFFF;
+	-ms-box-shadow: inset 0 0 0 4px #FFFFFF;
+	-moz-box-shadow: inset 0 0 0 4px #FFFFFF;
+	-webkit-box-shadow: inset 0 0 0 4px #FFFFFF;
+}
+
+.shadow {
+	box-shadow: 0 10px 20px -20px #000000;
+	-o-box-shadow: 0 10px 20px -20px #000000;
+	-ms-box-shadow: 0 10px 20px -20px #000000;
+	-moz-box-shadow: 0 10px 20px -20px #000000;
+	-webkit-box-shadow: 0 10px 20px -20px #000000;
+}
+
+.shadow:hover {
+	box-shadow: 0 10px 20px -20px #000000;
+	-o-box-shadow: 0 10px 20px -20px #000000;
+	-ms-box-shadow: 0 10px 20px -20px #000000;
+	-moz-box-shadow: 0 10px 20px -20px #000000;
+	-webkit-box-shadow: 0 10px 20px -20px #000000;
+}
+
+/*** GALLERY ***/
+
+#gallery {
+	z-index: 0;
+	overflow: hidden;
+	position: fixed;
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: #000000;
+	opacity: 1;
+}
+
+#gallery .animation {
+	z-index: 1000000;
+	overflow: visible;
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+}
+
+#gallery .wallpaper {
+	z-index: 0;
+	overflow: visible;
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent no-repeat scroll center center;
+	opacity: 1;
+}
+
+#gallery .content {
+	z-index: 1000000;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+}
+
+#gallery .content .wrap .error {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+	font: 400 50px/50px 'Bangers', 'Helvetica Neue', 'Arial';
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 5px 0 #000000;
+}
+
+#gallery .content .wrap .info {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+	font: 400 20px/30px 'Open Sans', 'Helvetica Neue', 'Arial';
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+/*** CUSTOM ***/
+
+#custom {
+	z-index: 0;
+	overflow: hidden;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: #FFFFFF;
+	opacity: 1;
+}
+
+#custom .content {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+}
+
+#custom .content .wrap .coverage {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+}
+
+#custom .content .wrap .coverage .icon {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: 60px;
+	width: 60px;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 30px 30px 30px 30px;
+	background: transparent;
+	opacity: 1;
+}
+
+/*** LEGAL ***/
+
+#legal {
+	z-index: 0;
+	overflow: hidden;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: #000000;
+	opacity: 1;
+}
+
+#legal .content {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+}
+
+#legal .content .wrap .copyright {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+	font: 400 14px/20px 'Open Sans', 'Helvetica Neue', 'Arial';
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+}

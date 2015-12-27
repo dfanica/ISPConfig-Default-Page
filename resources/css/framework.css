@@ -1,0 +1,539 @@
+/*** FRAMEWORK ***/
+
+body {
+	z-index: auto;
+	overflow: auto;
+	position: static;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: #FFFFFF;
+	background-size: auto;
+	opacity: 1;
+}
+
+.wrap {
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0 auto 0 auto;
+	padding: 10px 10px 10px 10px;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1;
+}
+
+.left {
+	float: left;
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1;
+}
+
+.right {
+	float: right;
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1;
+}
+
+.clear {
+	clear: both;
+	z-index: 0;
+	overflow: visible;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	background-size: auto;
+	opacity: 1;
+}
+
+.small {
+	min-width: 0;
+	max-width: 600px;
+}
+
+.medium {
+	min-width: 0;
+	max-width: 800px;
+}
+
+.large {
+	min-width: 0;
+	max-width: 1200px;
+}
+
+.size-1,
+.size-1:hover,
+.size-1:active,
+.size-1:focus {
+	width: 8.33%;
+}
+
+.size-2,
+.size-2:hover,
+.size-2:active,
+.size-2:focus {
+	width: 16.66%;
+}
+
+.size-3,
+.size-3:hover,
+.size-3:active,
+.size-3:focus {
+	width: 25.00%;
+}
+
+.size-4,
+.size-4:hover,
+.size-4:active,
+.size-4:focus {
+	width: 33.33%;
+}
+
+.size-5,
+.size-5:hover,
+.size-5:active,
+.size-5:focus {
+	width: 41.66%;
+}
+
+.size-6,
+.size-6:hover,
+.size-6:active,
+.size-6:focus {
+	width: 50.00%;
+}
+
+.size-7,
+.size-7:hover,
+.size-7:active,
+.size-7:focus {
+	width: 58.33%;
+}
+
+.size-8,
+.size-8:hover,
+.size-8:active,
+.size-8:focus {
+	width: 66.66%;
+}
+
+.size-9,
+.size-9:hover,
+.size-9:active,
+.size-9:focus {
+	width: 75.00%;
+}
+
+.size-auto,
+.size-auto:hover,
+.size-auto:active,
+.size-auto:focus {
+	width: auto;
+}
+
+.size-full,
+.size-full:hover,
+.size-full:active,
+.size-full:focus {
+	width: 100%;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+	.size-1.responsive,
+	.size-1.responsive:hover,
+	.size-1.responsive:active,
+	.size-1.responsive:focus {
+		width: 16.66%;
+	}
+
+	.size-2.responsive,
+	.size-2.responsive:hover,
+	.size-2.responsive:active,
+	.size-2.responsive:focus {
+		width: 33.33%;
+	}
+
+	.size-3.responsive,
+	.size-3.responsive:hover,
+	.size-3.responsive:active,
+	.size-3.responsive:focus {
+		width: 50.00%;
+	}
+
+	.size-4.responsive,
+	.size-4.responsive:hover,
+	.size-4.responsive:active,
+	.size-4.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-5.responsive,
+	.size-5.responsive:hover,
+	.size-5.responsive:active,
+	.size-5.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-6.responsive,
+	.size-6.responsive:hover,
+	.size-6.responsive:active,
+	.size-6.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-7.responsive,
+	.size-7.responsive:hover,
+	.size-7.responsive:active,
+	.size-7.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-8.responsive,
+	.size-8.responsive:hover,
+	.size-8.responsive:active,
+	.size-8.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-9.responsive,
+	.size-9.responsive:hover,
+	.size-9.responsive:active,
+	.size-9.responsive:focus {
+		width: 100.00%;
+	}
+	
+	.size-auto.responsive,
+	.size-auto.responsive:hover,
+	.size-auto.responsive:active,
+	.size-auto.responsive:focus {
+		width: 100.00%;
+	}
+	
+	.size-full.responsive,
+	.size-full.responsive:hover,
+	.size-full.responsive:active,
+	.size-full.responsive:focus {
+		width: 100.00%;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+	.size-1.responsive,
+	.size-1.responsive:hover,
+	.size-1.responsive:active,
+	.size-1.responsive:focus {
+		width: 33.33%;
+	}
+
+	.size-2.responsive,
+	.size-2.responsive:hover,
+	.size-2.responsive:active,
+	.size-2.responsive:focus {
+		width: 50.00%;
+	}
+
+	.size-3.responsive,
+	.size-3.responsive:hover,
+	.size-3.responsive:active,
+	.size-3.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-4.responsive,
+	.size-4.responsive:hover,
+	.size-4.responsive:active,
+	.size-4.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-5.responsive,
+	.size-5.responsive:hover,
+	.size-5.responsive:active,
+	.size-5.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-6.responsive,
+	.size-6.responsive:hover,
+	.size-6.responsive:active,
+	.size-6.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-7.responsive,
+	.size-7.responsive:hover,
+	.size-7.responsive:active,
+	.size-7.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-8.responsive,
+	.size-8.responsive:hover,
+	.size-8.responsive:active,
+	.size-8.responsive:focus {
+		width: 100.00%;
+	}
+
+	.size-9.responsive,
+	.size-9.responsive:hover,
+	.size-9.responsive:active,
+	.size-9.responsive:focus {
+		width: 100.00%;
+	}
+	
+	.size-auto.responsive,
+	.size-auto.responsive:hover,
+	.size-auto.responsive:active,
+	.size-auto.responsive:focus {
+		width: 100.00%;
+	}
+	
+	.size-full.responsive,
+	.size-full.responsive:hover,
+	.size-full.responsive:active,
+	.size-full.responsive:focus {
+		width: 100.00%;
+	}
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+	font: inherit;
+	color: inherit;
+	text-align: inherit;
+	text-decoration: inherit;
+	text-shadow: inherit;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+	text-size-adjust: none;
+	-o-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+	vertical-align: top;
+	-o-vertical-align: top;
+	-ms-vertical-align: top;
+	-moz-vertical-align: top;
+	-webkit-vertical-align: top;
+}
+
+.fast {
+	transition:
+		filter 0.25s linear,
+		height 0.25s linear,
+		width 0.25s linear,
+		margin 0.25s linear,
+		padding 0.25s linear,
+		outline 0.25s linear,
+		border 0.25s linear,
+		border-radius 0.25s linear,
+		background 0.25s linear,
+		opacity 0.25s linear,
+		font 0.25s linear,
+		color 0.25s linear,
+		text-align 0.25s linear,
+		text-decoration 0.25s linear,
+		text-shadow 0.25s linear,
+		box-shadow 0.25s linear;
+	-o-transition:
+		-o-filter 0.25s linear,
+		height 0.25s linear,
+		width 0.25s linear,
+		margin 0.25s linear,
+		padding 0.25s linear,
+		outline 0.25s linear,
+		border 0.25s linear,
+		border-radius 0.25s linear,
+		background 0.25s linear,
+		opacity 0.25s linear,
+		font 0.25s linear,
+		color 0.25s linear,
+		text-align 0.25s linear,
+		text-decoration 0.25s linear,
+		text-shadow 0.25s linear,
+		box-shadow 0.25s linear;
+	-ms-transition:
+		-ms-filter 0.25s linear,
+		height 0.25s linear,
+		width 0.25s linear,
+		margin 0.25s linear,
+		padding 0.25s linear,
+		outline 0.25s linear,
+		border 0.25s linear,
+		border-radius 0.25s linear,
+		background 0.25s linear,
+		opacity 0.25s linear,
+		font 0.25s linear,
+		color 0.25s linear,
+		text-align 0.25s linear,
+		text-decoration 0.25s linear,
+		text-shadow 0.25s linear,
+		box-shadow 0.25s linear;
+	-moz-transition:
+		-moz-filter 0.25s linear,
+		height 0.25s linear,
+		width 0.25s linear,
+		margin 0.25s linear,
+		padding 0.25s linear,
+		outline 0.25s linear,
+		border 0.25s linear,
+		border-radius 0.25s linear,
+		background 0.25s linear,
+		opacity 0.25s linear,
+		font 0.25s linear,
+		color 0.25s linear,
+		text-align 0.25s linear,
+		text-decoration 0.25s linear,
+		text-shadow 0.25s linear,
+		box-shadow 0.25s linear;
+	-webkit-transition:
+		-webkit-filter 0.25s linear,
+		height 0.25s linear,
+		width 0.25s linear,
+		margin 0.25s linear,
+		padding 0.25s linear,
+		outline 0.25s linear,
+		border 0.25s linear,
+		border-radius 0.25s linear,
+		background 0.25s linear,
+		opacity 0.25s linear,
+		font 0.25s linear,
+		color 0.25s linear,
+		text-align 0.25s linear,
+		text-decoration 0.25s linear,
+		text-shadow 0.25s linear,
+		box-shadow 0.25s linear;
+}
+
+.slow {
+	transition:
+		filter 0.50s linear,
+		height 0.50s linear,
+		width 0.50s linear,
+		margin 0.50s linear,
+		padding 0.50s linear,
+		outline 0.50s linear,
+		border 0.50s linear,
+		border-radius 0.50s linear,
+		background 0.50s linear,
+		opacity 0.50s linear,
+		font 0.50s linear,
+		color 0.50s linear,
+		text-align 0.50s linear,
+		text-decoration 0.50s linear,
+		text-shadow 0.50s linear,
+		box-shadow 0.50s linear;
+	-o-transition:
+		-o-filter 0.50s linear,
+		height 0.50s linear,
+		width 0.50s linear,
+		margin 0.50s linear,
+		padding 0.50s linear,
+		outline 0.50s linear,
+		border 0.50s linear,
+		border-radius 0.50s linear,
+		background 0.50s linear,
+		opacity 0.50s linear,
+		font 0.50s linear,
+		color 0.50s linear,
+		text-align 0.50s linear,
+		text-decoration 0.50s linear,
+		text-shadow 0.50s linear,
+		box-shadow 0.50s linear;
+	-ms-transition:
+		-ms-filter 0.50s linear,
+		height 0.50s linear,
+		width 0.50s linear,
+		margin 0.50s linear,
+		padding 0.50s linear,
+		outline 0.50s linear,
+		border 0.50s linear,
+		border-radius 0.50s linear,
+		background 0.50s linear,
+		opacity 0.50s linear,
+		font 0.50s linear,
+		color 0.50s linear,
+		text-align 0.50s linear,
+		text-decoration 0.50s linear,
+		text-shadow 0.50s linear,
+		box-shadow 0.50s linear;
+	-moz-transition:
+		-moz-filter 0.50s linear,
+		height 0.50s linear,
+		width 0.50s linear,
+		margin 0.50s linear,
+		padding 0.50s linear,
+		outline 0.50s linear,
+		border 0.50s linear,
+		border-radius 0.50s linear,
+		background 0.50s linear,
+		opacity 0.50s linear,
+		font 0.50s linear,
+		color 0.50s linear,
+		text-align 0.50s linear,
+		text-decoration 0.50s linear,
+		text-shadow 0.50s linear,
+		box-shadow 0.50s linear;
+	-webkit-transition:
+		-webkit-filter 0.50s linear,
+		height 0.50s linear,
+		width 0.50s linear,
+		margin 0.50s linear,
+		padding 0.50s linear,
+		outline 0.50s linear,
+		border 0.50s linear,
+		border-radius 0.50s linear,
+		background 0.50s linear,
+		opacity 0.50s linear,
+		font 0.50s linear,
+		color 0.50s linear,
+		text-align 0.50s linear,
+		text-decoration 0.50s linear,
+		text-shadow 0.50s linear,
+		box-shadow 0.50s linear;
+}
