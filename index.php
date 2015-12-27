@@ -45,7 +45,7 @@ function get_domain_url()
                         <a id="back_button" class="button border fast" href="">Back</a>
                     </div>
                     <div class="left size-6">
-                        <a class="button border fast" href="http://<?php echo get_domain_url(); ?>">Root Page</a>
+                        <a class="button border fast" href="<?php echo get_domain_url(); ?>">Root Page</a>
                     </div>
                     <div class="clear"></div>
                 </div>
