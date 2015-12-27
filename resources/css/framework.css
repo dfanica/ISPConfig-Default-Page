@@ -142,7 +142,9 @@ body {
 .size-6:hover,
 .size-6:active,
 .size-6:focus {
-	width: 50.00%;
+	padding: 2%;
+	font-family: "Courier", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+	width: 46.00%;
 }
 
 .size-7,
@@ -243,14 +245,14 @@ body {
 	.size-9.responsive:focus {
 		width: 100.00%;
 	}
-	
+
 	.size-auto.responsive,
 	.size-auto.responsive:hover,
 	.size-auto.responsive:active,
 	.size-auto.responsive:focus {
 		width: 100.00%;
 	}
-	
+
 	.size-full.responsive,
 	.size-full.responsive:hover,
 	.size-full.responsive:active,
@@ -322,14 +324,14 @@ body {
 	.size-9.responsive:focus {
 		width: 100.00%;
 	}
-	
+
 	.size-auto.responsive,
 	.size-auto.responsive:hover,
 	.size-auto.responsive:active,
 	.size-auto.responsive:focus {
 		width: 100.00%;
 	}
-	
+
 	.size-full.responsive,
 	.size-full.responsive:hover,
 	.size-full.responsive:active,

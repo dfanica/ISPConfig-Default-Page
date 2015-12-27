@@ -153,7 +153,7 @@ class PROCESS {
 	public function deliver() {
 		global $_FWK;
 		global $_API;
-		
+
 		if (isset($_REQUEST)) {
 			if (isset($_REQUEST["fullname"]) && isset($_REQUEST["from"]) && isset($_REQUEST["subject"]) && isset($_REQUEST["message"])) {
 				$message = strip_tags($_REQUEST["message"]);
